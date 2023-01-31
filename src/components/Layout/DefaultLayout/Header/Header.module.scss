@@ -1,0 +1,41 @@
+.header {
+    border-radius: 0px;
+    display: flex;
+    font-style: 'Plus Jakarta Sans', sans-serif;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 41px;
+    width: 206px;
+    left: 53px;
+    top: 39px;
+    border-radius: 0px;
+}
+
+.userIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 138px;
+}
