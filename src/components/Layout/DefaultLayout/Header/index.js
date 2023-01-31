@@ -8,14 +8,13 @@ const cx = classNames.bind(sytles);
 
 function Header() {
     return <header className={cx('header')}>
-        <div className={cx('inner')}>
             <div className={cx('logo')}>
                 <img src={logo} alt="Engrich"></img>
             </div>
             <div className={cx('menu')}>
                 <ul>ABOUT US</ul>
+                <ul>SHOP</ul>
                 <ul>COLLECTIONS</ul>
-                <ul>Collections</ul>
                 <ul>GALLERY</ul>
                 <ul>SUPPORT</ul>
             </div>
@@ -23,7 +22,6 @@ function Header() {
                 <img src={avatar} alt="avatar"></img>
                 <img src={cart} alt="cart"></img>
             </div>
-        </div>
     </header>
 
 }

@@ -1,0 +1,70 @@
+.footer {
+    background: #000000;
+    height: 448px;
+    position: absolute;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: Plus Jakarta Sans;
+}
+
+.logo2 .img {
+    padding-left: 22px;
+}
+
+.logo2 p {
+    text-align: left;
+    padding-left: 22px;
+}
+
+.contact {
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    padding-left: 247px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    word-wrap: break-word;
+    opacity: 70%;
+}
+
+.footer-content h1 {
+    font-size: 18px;
+}
+
+.copyright {
+    display: flex;
+    font-family: Plus Jakarta Sans;
+    margin-left: 50px;
+    margin-top: 113px;
+}
+
+.copyright h1 {
+    font-size: 14px;
+    line-height: 17.64px;
+    padding-right: 68px;
+}
+
+.copyright p {
+    font-size: 14px;
+    line-height: 17.64px;
+    Opacity: 50%;
+    padding-right: 44px;
+}
+
+.social {
+    position: relative;
+    padding-left: 400px;
+}
+
+.social img {
+    margin-right: 20px;
+}
